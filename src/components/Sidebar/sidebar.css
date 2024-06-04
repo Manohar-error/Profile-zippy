@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Poppins;
+}
+
+.sidebar {
+  background-color: #FFFFFF;
+  width: 60px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar-content {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  margin-top: 10px;
+}
+
+.sidebar-image {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.sidebar-image img {
+  width: 20px;
+  height: 25px;
+}
+
+.sidebar-image:last-child {
+  margin-bottom: 0;
+}
+
+.sidebar-image:hover img {
+  filter: brightness(1);
+}

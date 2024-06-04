@@ -1,0 +1,27 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Poppins;
+}
+
+
+.divider {
+  border: none;
+  height: 1px;
+  background-color: #D2D1D6;
+}
+
+
+.bordered-container {
+  border: 1px solid #D2D1D6;
+  border-radius: 8px;
+  padding: 10px;
+}
+
+input {
+  height: 30px;
+  border-radius: 8px;
+  width: 100%;
+  background-color: #F1F1F3;
+}
